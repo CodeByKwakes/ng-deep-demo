@@ -9,6 +9,4 @@ import { Component } from '@angular/core';
   `,
   styleUrls: ['./company.component.css']
 })
-export class CompanyComponent { 
-}
-     
+export class CompanyComponent { }

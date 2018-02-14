@@ -1,18 +1,23 @@
-:host /deep/ h3 {
-  color: yellow;	
+:host ::ng-deep h3 {
+  color: rgb(255, 0, 200);
   font-style: italic;
 }
-:host  >>> p {
-  color: white;
+
+:host ::ng-deep p {
+  color: #d4ff00;
   font-style: Monospace;
   font-size: 20px;
 }
 
-:host  {
-    position: absolute; 
-	top: 10%;  
-	border: 5px solid red; 
-	background-color: silver;
-	width: 300px;
-	height: 400px;
+:host ::ng-deep app-address p {
+  color: #fbff00;
+}
+
+:host {
+  position: absolute;
+  top: 10%;
+  border: 5px solid red;
+  background-color: silver;
+  width: 300px;
+  height: 400px;
 }
